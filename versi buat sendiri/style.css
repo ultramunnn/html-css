@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: poppins, sans-serif;
+    background-color: #F7F7F7;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #EDF2F7;
+}
+
+.navlogo{
+    font-size: 20px;
+    font-weight: 600;
+    color:#6B7280;
+    
+}
+
+.navlogo span{
+    display: inline-block;
+   
+
+    color:#1F2937;
+    
+}
+
+.link{
+    display: flex;
+    padding: 2rem;
+    list-style-type: none;
+    gap: 1rem;
+}
